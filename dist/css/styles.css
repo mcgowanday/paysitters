@@ -11898,3 +11898,19 @@ html {
 
   color: rgba(0, 0, 0, 0.9);
 }
+
+/* Value Prop Paragraph */
+
+.value-prop-paragraph {
+  
+font-family: Lato;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+/* text/primary */
+
+color: rgba(0, 0, 0, 0.9);
+}
