@@ -11985,6 +11985,12 @@ color: rgba(0, 0, 0, 0.9);
 }
 
 .img-fluid-hero {
-  max-width: 25%;
+  max-width: 50%;
   height: auto;
+}
+
+.container-hero {
+  width: 100%;
+  margin-right: 0;
+  margin-left: ;
 }
