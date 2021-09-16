@@ -3169,8 +3169,8 @@ fieldset:disabled .btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #2c3e50;
-  border-color: #2c3e50;
+  background-color: #3A9974;
+  border-color: #3A9974;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -11801,11 +11801,12 @@ html {
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
-  position: absolute;
+  /* position: absolute;
   left: 10.28%;
   right: 47.15%;
   top: 11.52%;
-  bottom: 78.81%;
+  bottom: 78.81%; */
+
 
   font-family: Lato;
   font-style: normal;
@@ -11884,6 +11885,60 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+
+/* Button/Green */
+
+
+/* Auto Layout */
+
+.button-green {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+    background: #3A9974;
+
+}
+
+
+
+.landing-content-header {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 68px;
+    /* or 142% */
+
+
+    /* text/primary */
+
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.landing-content-subheader {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 68px;
+    /* identical to box height, or 340% */
+
+
+    /* text/primary */
+
+color: rgba(0, 0, 0, 0.9);
 }
 
 /* Value Prop Header */
