@@ -38,7 +38,7 @@
         <header class="masthead  bg-primary text-black text-start">
             <div class="container d-flex align-items-start flex-column">
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading justify-content-start mb-0">Stop worrying about paying your bills on time</h1>
+                <h1 class="masthead-heading justify-content-start mb-0">Stop worrying about paying <br /> your bills on time</h1>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <!-- <div class="divider-custom-line"></div>
@@ -47,8 +47,10 @@
                 </div>
                 <!-- Masthead Subheading-->
                 <p class="masthead-subheading  mb-2">With Paysitters, we will manage and pay your bills for you</p>
-                <button class="btn btn-secondary btn-block">Get Early Access</button>
+                <div>
+                    <button class="btn btn-secondary btn-block">Get Early Access</button>
                 <!-- <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button> -->
+                </div>
             </div>
         </header>
         <!-- Value Props Section-->
@@ -112,11 +114,11 @@
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-black mb-0">Get Early Access</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-icon"><i class="far fa-check-square"></i></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Contact Section Form-->
@@ -145,15 +147,9 @@
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                                <input class="form-control" id="state" type="text" placeholder="California" data-sb-validations="required" />
+                                <label for="state">State of Residence</label>
+                                <div class="invalid-feedback" data-sb-feedback="state:required">A state of residence is required.</div>
                             </div>
                             <!-- Submit success message-->
                             <!---->
@@ -179,34 +175,29 @@
                 </div>
             </div>
         </section>
+        <hr style="margin: 0 auto; width:65%">
         <!-- Footer-->
-        <footer class="footer text-center">
+        <footer class="footer text-start">
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Location</h4>
-                        <p class="lead mb-0">
-                            2215 John Daniel Drive
-                            <br />
-                            Clark, MO 65243
-                        </p>
+                        <h4 class="mb-3">Company</h4>
+                        <ul class="no-bullets">
+                            <li>About Us</li>
+                            <li>Contact Us</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms and Conditions</li>
+                        </ul>
                     </div>
                     <!-- Footer Social Icons-->
                     <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                        <h4 class="mb-4">Get The App</h4>
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <h4 class=" mb-4">Copyright &copy; Paysitters 2021</h4>
                         <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
                         </p>
                     </div>
                 </div>
