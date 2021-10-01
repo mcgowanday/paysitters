@@ -329,10 +329,10 @@ figure {
   margin: 0 0 1rem;
 }
 
-img,
+/* img,
 svg {
   vertical-align: middle;
-}
+} */
 
 table {
   caption-side: bottom;
@@ -11799,20 +11799,13 @@ html {
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
+  font-size: 1.9rem;
+  line-height: 2rem;
   /* position: absolute;
   left: 10.28%;
   right: 47.15%;
   top: 11.52%;
   bottom: 78.81%; */
-
-
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 68px;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
@@ -11827,11 +11820,17 @@ html {
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 4rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  #mast-subheading {
+    visibility: hidden;
+    display: none;
   }
 }
 .portfolio .portfolio-item {
