@@ -7728,6 +7728,10 @@ fieldset:disabled .btn {
   margin-right: 3rem !important;
 }
 
+.me-6 {
+    margin-right: 3rem;
+}
+
 .me-auto {
   margin-right: auto !important;
 }
@@ -7916,6 +7920,10 @@ fieldset:disabled .btn {
   padding-right: 1.5rem !important;
 }
 
+.pe-6 {
+    padding-right: 2.2rem !important;
+}
+
 .pe-5 {
   padding-right: 3rem !important;
 }
@@ -8042,6 +8050,9 @@ fieldset:disabled .btn {
 
 .text-start {
   text-align: left !important;
+}
+.text-start-header {
+  text-align: left;
 }
 
 .text-end {
@@ -11860,10 +11871,15 @@ html {
     font-size: 1.5rem;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 412px) {
   #mast-subheading {
     visibility: hidden;
     display: none;
+  }
+  #main-column {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-right: 0;
   }
 }
 .portfolio .portfolio-item {
@@ -12017,8 +12033,10 @@ color: rgba(0, 0, 0, 0.9);
 }
 
 .img-fluid-hero {
-  max-width: 50%;
-  height: auto;
+  max-width: 95%;
+  height: 95%;
+  align-self: center;
+  margin-top: 0;
 }
 
 .container-hero {
