@@ -11905,6 +11905,9 @@ html {
       visibility: visible;
       display: block;
   }
+  #mt-mobileheader {
+    margin-top: 1.5rem;
+  }
 }
 .portfolio .portfolio-item {
   cursor: pointer;
