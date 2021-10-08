@@ -646,6 +646,22 @@ progress {
   height: auto;
 }
 
+.img-hero {
+/* position: absolute;
+left: 24.81%;
+right: 24.47%;
+top: 16.84%;
+bottom: 68.66%; */
+/* X: 93.02px
+Y: 442.11px */
+/* visibility: hidden; */
+display: none;
+width: 190.2px;
+height: 380.84px;
+/* display: block; */
+margin: -250px auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -7700,6 +7716,10 @@ fieldset:disabled .btn {
   margin-top: 3rem !important;
 }
 
+.mt-6 {
+  margin-top: 4rem ;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -11705,8 +11725,8 @@ html {
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
-    font-size: 3rem;
-    line-height: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 2rem;
   }
 }
 
@@ -11719,9 +11739,9 @@ html {
 }
 .divider-custom .divider-custom-line {
   width: 100%;
-  max-width: 7rem;
-  height: 0.25rem;
-  background-color: #000000;
+  max-width: 9rem;
+  height: 0.12rem;
+  background-color: #c8c9ca;
   border-radius: 1rem;
   border-color: #000000;
 }
@@ -11733,7 +11753,7 @@ html {
 }
 .divider-custom .divider-custom-icon {
   color: #000000;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 .divider-custom.divider-light .divider-custom-line {
   background-color: #fff;
@@ -11839,7 +11859,7 @@ html {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
+  padding-top: calc(4rem + 24px);
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
@@ -11860,8 +11880,8 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-top: calc(3rem + 104px);
+    padding-bottom: 0rem;
   }
   .masthead .masthead-heading {
     font-size: 3rem;
@@ -11880,6 +11900,10 @@ html {
     flex: 0 0 auto;
     width: 100%;
     margin-right: 0;
+  }
+  #vert-iphone {
+      visibility: visible;
+      display: block;
   }
 }
 .portfolio .portfolio-item {
@@ -11932,7 +11956,7 @@ html {
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #D0E5DC;
 }
 
 /* Button/Green */
@@ -12035,6 +12059,13 @@ color: rgba(0, 0, 0, 0.9);
 .img-fluid-hero {
   max-width: 95%;
   height: 95%;
+  align-self: center;
+  margin-top: 0;
+}
+
+.img-set-hero {
+  max-width: 475px;
+  height: 635px;
   align-self: center;
   margin-top: 0;
 }
