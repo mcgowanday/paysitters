@@ -646,7 +646,7 @@ progress {
   height: auto;
 }
 
-.img-hero {
+.img-hero-mobile {
 /* position: absolute;
 left: 24.81%;
 right: 24.47%;
@@ -659,7 +659,8 @@ display: none;
 width: 190.2px;
 height: 380.84px;
 /* display: block; */
-margin: -250px auto;
+margin: -270px auto;
+margin-top: 3rem;
 }
 
 .img-thumbnail {
@@ -7716,6 +7717,10 @@ fieldset:disabled .btn {
   margin-top: 3rem !important;
 }
 
+.mt-5-var {
+  margin-top: 3rem ;
+}
+
 .mt-6 {
   margin-top: 4rem ;
 }
@@ -7941,6 +7946,10 @@ fieldset:disabled .btn {
 }
 
 .pe-6 {
+    padding-right: 2.2rem !important;
+}
+
+.pe- {
     padding-right: 2.2rem !important;
 }
 
@@ -11861,6 +11870,7 @@ html {
 .masthead {
   padding-top: calc(4rem + 24px);
   padding-bottom: 6rem;
+  border-radius: 0px 0px 200px 0px;
 }
 .masthead .masthead-heading {
   font-size: 1.9rem;
@@ -11907,6 +11917,20 @@ html {
   }
   #mt-mobileheader {
     margin-top: 1.5rem;
+  }
+  #mt-mobile-valueprop {
+      margin-top: 19rem;
+  }
+  .mb-mobile-4 {
+      margin-bottom: 4rem
+  }
+
+  .pe-6 {
+      padding-right: .7rem !important;
+  }
+
+  .masthead {
+      border-radius: 0px 0px 100px 0px;
   }
 }
 .portfolio .portfolio-item {
