@@ -2514,7 +2514,7 @@ textarea.form-control-lg {
 .form-select:focus {
   border-color: #D0E5DC;
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(26, 188, 156, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(58, 153, 116, 0.25);
 }
 .form-select[multiple],
 .form-select[size]:not([size='1']) {
@@ -2749,7 +2749,7 @@ textarea.form-control-lg {
 }
 .form-floating > .form-control,
 .form-floating > .form-select {
-  height: 5.5rem;
+  height: 4rem;
   line-height: 1.25;
 }
 .form-floating > label {
@@ -2790,8 +2790,8 @@ textarea.form-control-lg {
 }
 .form-floating > .form-control:focus,
 .form-floating > .form-control:not(:placeholder-shown) {
-  padding-top: 2.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 2rem;
+  padding-bottom: .5rem;
 }
 .form-floating > .form-control:-webkit-autofill {
   padding-top: 2.5rem;
@@ -3207,9 +3207,9 @@ fieldset:disabled .btn {
 .btn-check:focus + .btn-secondary,
 .btn-secondary:focus {
   color: #fff;
-  background-color: #253544;
-  border-color: #233240;
-  box-shadow: 0 0 0 0.25rem rgba(76, 91, 106, 0.5);
+  background-color: #D0E5DC;
+  border-color: #D0E5DC;
+  box-shadow: 0 0 0 0.25rem rgba(208, 229, 220, 0.5);
 }
 .btn-check:checked + .btn-secondary,
 .btn-check:active + .btn-secondary,
@@ -7777,6 +7777,10 @@ fieldset:disabled .btn {
   margin-bottom: 1rem !important;
 }
 
+.mb-35 {
+  margin-bottom: 1.75rem !important;
+}
+
 .mb-4 {
   margin-bottom: 1.5rem !important;
 }
@@ -7955,6 +7959,10 @@ fieldset:disabled .btn {
 
 .pe-5 {
   padding-right: 3rem !important;
+}
+
+.pe-7 {
+  padding-right: 29rem !important;
 }
 
 .pb-0 {
@@ -11851,7 +11859,7 @@ html {
 }
 .form-floating input.form-control,
 .form-floating textarea.form-control {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   border-left: 0;
   border-right: 0;
   border-top: 0;
@@ -11863,7 +11871,7 @@ html {
   box-shadow: none;
 }
 .form-floating label {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #6c757d;
 }
 
